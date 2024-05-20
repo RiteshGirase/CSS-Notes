@@ -1,0 +1,156 @@
+#raj > p{
+    color:black;
+    text-align: center;
+    font-size: 34px ;
+    text-decoration: underline;
+}
+
+
+div > h1{
+    color: rgb(0, 0, 7);
+    padding-bottom: 8px;
+    margin: 3px;
+    padding: 45px;
+    background-color: rgb(215, 145, 145);
+    text-align: center;
+    text-decoration :underline;
+}
+
+div{
+    background-color: rgb(151, 86, 86);
+    padding-bottom: 5%;
+    margin: 3px;
+    margin-bottom: 7px;
+    padding: 45px;
+    border: 3px solid black;
+    box-shadow: 5px 3px 6px darkolivegreen;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+ /* child selector */
+div > p {
+    color: black;
+}
+
+/* here i had make the css property usage not by simply setting background color by class or id name but by first and nth child make use of it. */
+
+div p:first-child{
+    background-color: lightcoral;
+}
+
+div p:nth-child(3){
+    background-color: lightseagreen;
+}
+
+p{
+    color: black;
+    padding-bottom: 8px;
+    padding: 45px;
+    margin: 3px;
+    background-color: darkgoldenrod;
+}
+
+#sel{
+    background-color: aquamarine;
+    padding-bottom: 8px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(136, 164, 173);
+}
+
+#para{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+#para1{
+    background-color: black;
+    color: aliceblue;
+    padding: 45px;
+}
+
+p.harryclass{
+    background-color: darkgrey;
+    padding: 45px;
+}
+
+li{
+    list-style: none;
+    list-style-position: inside;
+    /* background-color: black; */
+    color: #fff;
+    /* list-style-image: image("car.png"); */
+    display: flex;
+    padding: 23px;
+}
+
+ ul{
+    display: flex;
+    padding: 23px;
+    margin: 4px;
+    justify-content: center;
+    width: 80vw;
+}
+
+nav{
+    display: block;
+    justify-content: center;
+}
+
+.Ritesh{
+    width: 20vw;
+    height: 20vh;
+    /* overflow: scroll; */
+    overflow: auto;
+    /* white-space: nowrap; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* text-overflow: ellipsis; */
+}
+
+h2{
+    padding: 6px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: lightsalmon;
+    }
+    
+}
+
+.r0{
+    width: 15vw;
+}
+
+.r1{
+    width: 15vw;
+    filter: blur(2px);
+}
+
+.r5{
+    width: 15vw;
+    filter: brightness(155%);
+}
+
+.r2{
+    width: 15vw;
+    filter: grayscale(66%);
+}
+
+.r3{
+    width: 15vw;
+    filter: opacity(45%);
+}
+
+.r4{
+    width: 15vw;
+    filter: sepia(0.65);
+}
+
+
